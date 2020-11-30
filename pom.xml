@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.itstyle.elasticsearch</groupId>
-  <artifactId>spring-boot2-elasticsearch</artifactId>
+  <artifactId>spring-boot-elasticsearch2</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>spring-boot2-elasticsearch</name>
+  <name>spring-boot-elasticsearch2</name>
   <url>http://maven.apache.org</url>
   
     <properties>
@@ -95,7 +95,7 @@
 		</dependency>
 	</dependencies>
   <build>
-    <finalName>spring-boot2-elasticsearch</finalName>
+    <finalName>spring-boot-elasticsearch2</finalName>
     <plugins>
 			<!-- 打包项目 mvn clean package -->
 			<plugin>
@@ -125,7 +125,7 @@
 						</goals>
 						<configuration>
 							<classesDirectory>${project.build.directory}/classes</classesDirectory>
-							<finalName>spring-boot2-es</finalName>
+							<finalName>spring-boot-es2</finalName>
 							<outputDirectory>${project.build.directory}</outputDirectory>
 							<includes>
 								<include>com/itstyle/es/log/service/*.*</include>
